@@ -1,0 +1,17 @@
+.navbar-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px 0px;
+  background-color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-header {
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 600;
+  color: WHITE; /* Text color */
+  cursor: auto; /* Set cursor to default */
+  padding-left: 20px;
+}

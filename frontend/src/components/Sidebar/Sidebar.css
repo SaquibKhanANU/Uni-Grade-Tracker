@@ -1,0 +1,99 @@
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  background-color: var(--pink);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-elements {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 50%;
+  height: 25px;
+  outline: none; /* Remove outline when input is clicked */
+  border: none; /* Remove border when input is clicked */
+  margin: 0px 5px;
+}
+
+.input-container button {
+  padding: 0; /* Remove default button padding */
+  background-color: transparent; /* Remove default button background */
+  border: none; /* Remove default button border */
+  cursor: pointer;
+}
+
+.input-container button img {
+  width: 20px; /* Set the width of the image */
+  height: auto; /* Maintain aspect ratio */
+  vertical-align: middle; /* Align the image vertically */
+}
+
+/* Style the sidebar dropdown container */
+.sidebar-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.dropbtn-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+  width: 70px;
+  background-color: white; /* Button background color */
+  color: black; /* Button text color */
+  font-size: 14px; /* Button font size */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Add pointer cursor on hover */
+  padding: 5px 17.5px; /* Add some padding to button */
+}
+
+/* Style the dropdown content (default hidden) */
+.dropdown-content {
+  display: none; /* Hide dropdown content by default */
+  position: absolute; /* Position dropdown content absolutely */
+  background-color: #f9f9f9; /* Dropdown background color */
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Add box shadow */
+  z-index: 1; /* Set z-index to appear above other content */
+}
+
+/* Style dropdown links */
+.dropdown-content span {
+  color: black; /* Link text color */
+  text-decoration: none; /* Remove underline */
+  display: block; /* Display links as block elements */
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Change background color of dropdown links on hover */
+.dropdown-content span:hover {
+  background-color: #ddd; /* Change background color on hover */
+}
+
+/* Show dropdown content when hover over dropdown button */
+.sidebar-dropdown:hover .dropdown-content {
+  display: block; /* Show dropdown content on hover */
+}

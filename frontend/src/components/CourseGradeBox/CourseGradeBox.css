@@ -1,0 +1,22 @@
+.course-grade-box {
+  width: 150px; /* You can adjust width as per your requirement */
+  height: 150px; /* You can adjust height as per your requirement */
+  background-color: var(--pink); /* You can adjust background color */
+  border-radius: 5px; /* You can adjust border radius */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 20px; /* You can adjust font size */
+  font-weight: bold;
+  margin-bottom: 5px; /* You can adjust margin */
+}
+
+.value {
+  font-size: 30px; /* You can adjust font size */
+  font-weight: bold;
+}

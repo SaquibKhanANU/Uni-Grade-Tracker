@@ -1,0 +1,16 @@
+.dashboard-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+.dashboard-gradeboxs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust margin as needed */
+  gap: 80px;
+}
+
+.dashboard-table {
+  margin: 20px;
+}
